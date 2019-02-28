@@ -17,58 +17,59 @@ border: #4369e8;
 	color: #6d98b8;
 }
 .entry-title a:hover, .entry-title a:focus {
-		color: #6d98b8;
+	color: #6d98b8;
 }
 #secondary .widget a:hover, #secondary .widget a:focus {
-		color: #6d98b8;
+	color: #6d98b8;
 }
-a:active, a:hover, a:focus {	color: #6d98b8;
+a:active, a:hover, a:focus {	
+	color: #6d98b8;
 }
 .posts-navigation .next-post a:hover .fa, .posts-navigation .prev-post a:hover .fa, .image-attachment .entry-meta a, a, a:visited, .next-post a:visited, .prev-post a:visited, .next-post a, .prev-post a {
-		color: #6d98b8;
+	color: #6d98b8;
 }
 
 blockquote {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    margin: 0.25em 0;
-    padding: 0.25em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
-    background:#ececec;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+	background:#ececec;
 	border-left: none;
 }
  
 blockquote:before {
-    display: block;
-    content: "\201C";
-    font-size: 80px;
-    position: absolute;
-    left: -1%;
-    top: -7%;
-    color: #7a7a7a;
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -1%;
+	top: -7%;
+	color: #7a7a7a;
 }
 blockquote:after {
-    display: block;
-    content: "\201D";
-    font-size: 80px;
-    position: absolute;
-    right: 1%;
-    top: 53%;
-    color: #7a7a7a;
+	display: block;
+	content: "\201D";
+	font-size: 80px;
+	position: absolute;
+	right: 1%;
+	top: 53%;
+    	color: #7a7a7a;
 }
  
 blockquote cite {
-    color: #999999;
-    font-size: 14px;
-    display: block;
-    margin-top: 5px;
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
 }
   
 blockquote cite:before  {
-    content: "\2014 \2009";
+	content: "\2014 \2009";
 }
 .row.site-info {
 	display: none;
@@ -80,19 +81,19 @@ blockquote cite:before  {
 	border-radius: 3px;
 }
 #respond input#submit {
-    background-color: #fab526;
-    background: #d3dee4;
+	background-color: #fab526;
+	background: #d3dee4;
 	color: #383838
 }
 button:hover, button, button:active, button:focus {
 	border: 1px solid #FFF;
-background: #FFF;
+	background: #FFF;
 }
 button, button:hover, html input[type="button"], html input[type="button"]:hover, input[type="reset"], input[type="reset"]:hover, input[type="submit"], input[type="submit"]:hover {
-    border: 1px solid #fff;
-    border-radius: 2px;
-    color: #d3dee4;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	color: #d3dee4;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #d3dee4;
+	color: #d3dee4;
 }
