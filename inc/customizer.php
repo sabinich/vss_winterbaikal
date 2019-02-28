@@ -105,14 +105,6 @@ function journalistic_customize_register( $wp_customize ) {
         'priority' => 2,
         ) );
 
-	$wp_customize->add_section(
-		'journalistic_rating',
-		array(
-			'title' => __('Rate Journalistic <3', 'journalistic'),
-			'priority' => 995,
-			'description' => __('We work hard & do our best to give you an awesome theme. If you like Journalistic then let the developer know, he gets so happy!', 'journalistic') . '<br> <br><a class="button button-primary" href="https://wordpress.org/support/theme/journalistic/reviews/?filter=5" target="_blank">Click here to rate Journalistic</a> ',
-			)
-		);  
 	$wp_customize->add_setting('journalistic_rating_tabs_sec', array(
 		'sanitize_callback' => 'unneeded',
 		'type' => 'info_control',
@@ -126,15 +118,6 @@ function journalistic_customize_register( $wp_customize ) {
 		'priority' => 105
 		) )
 	);   
-
-	$wp_customize->add_section(
-		'journalistic_allfeatures_tab',
-		array(
-			'title' => __('Journalistic Premium Version', 'journalistic'),
-			'priority' => 0,
-			'description' => __(' ', 'journalistic') . '<a href="https://outstandingthemes.com/themes/journalistic/" target="_blank"><img src="' . get_template_directory_uri() . '/images/theme-image-1.png"></a>',
-			)
-		); 
 
 	$wp_customize->add_setting('journalistic_allfeatures_tabs_sec', array(
 		'sanitize_callback' => 'unneeded',
