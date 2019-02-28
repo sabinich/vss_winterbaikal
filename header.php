@@ -62,25 +62,30 @@
             <span class="frontpage-site-description"><?php echo  wp_kses_post(get_theme_mod('hero_image_subtitle')) ?></span>
           <?php endif; ?>
                   <!-- Social media links Start -->
-
+<!-- vkontakte link -->
+<?php if (get_theme_mod('vkontakte_link') ) : ?>
+  <a href="<?php echo  wp_kses_post(get_theme_mod('vkontakte_link')) ?>" target="_blank" class="header-social-media-link">
+   <i class="fa fa-vkontakte" aria-hidden="true"></i>
+  </a>
+<?php endif; ?>
         <!-- Facebook link -->
         <?php if (get_theme_mod('facebook_link') ) : ?>
         <a href="<?php echo  wp_kses_post(get_theme_mod('facebook_link')) ?>" target="_blank" class="header-social-media-link">
           <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
       <?php endif; ?>
+<!-- Instagram link -->
+  <?php if (get_theme_mod('instagram_link') ) : ?>
+  <a href="<?php echo  wp_kses_post(get_theme_mod('instagram_link')) ?>" target="_blank" class="header-social-media-link">
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+  </a>
+<?php endif; ?>
       <!-- Twitter link -->
       <?php if (get_theme_mod('twitter_link') ) : ?>
       <a href="<?php echo  wp_kses_post(get_theme_mod('twitter_link')) ?>" target="_blank" class="header-social-media-link">
         <i class="fa fa-twitter" aria-hidden="true"></i>
       </a>
     <?php endif; ?>
-  <!-- Instagram link -->
-  <?php if (get_theme_mod('instagram_link') ) : ?>
-  <a href="<?php echo  wp_kses_post(get_theme_mod('instagram_link')) ?>" target="_blank" class="header-social-media-link">
-    <i class="fa fa-instagram" aria-hidden="true"></i>
-  </a>
-<?php endif; ?>
 <!-- Youtube link -->
 <?php if (get_theme_mod('youtube_link') ) : ?>
   <a href="<?php echo  wp_kses_post(get_theme_mod('youtube_link')) ?>" target="_blank" class="header-social-media-link">
@@ -93,10 +98,10 @@
    <i class="fa fa-linkedin" aria-hidden="true"></i>
   </a>
 <?php endif; ?>
-<!-- Twitch link -->
-<?php if (get_theme_mod('twitch_link') ) : ?>
-  <a href="<?php echo  wp_kses_post(get_theme_mod('twitch_link')) ?>" target="_blank" class="header-social-media-link">
-   <i class="fa fa-twitch" aria-hidden="true"></i>
+<!-- RSS link -->
+<?php if (get_theme_mod('rss_link') ) : ?>
+  <a href="<?php echo  wp_kses_post(get_theme_mod('rss_link')) ?>" target="_blank" class="header-social-media-link">
+   <i class="fa fa-rss" aria-hidden="true"></i>
   </a>
 <?php endif; ?>
 <!-- Pinterest link -->
@@ -105,12 +110,7 @@
    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
   </a>
 <?php endif; ?>
-<!-- Soundcloud link -->
-<?php if (get_theme_mod('soundcloud_link') ) : ?>
-  <a href="<?php echo  wp_kses_post(get_theme_mod('soundcloud_link')) ?>" target="_blank" class="header-social-media-link">
-   <i class="fa fa-soundcloud" aria-hidden="true"></i>
-  </a>
-<?php endif; ?>
+
 <!-- Social media links end -->
 
         </span>
