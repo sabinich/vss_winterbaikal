@@ -185,14 +185,14 @@ function journalistic_customize_register( $wp_customize ) {
         'type'     => 'text',
         'priority' => 2,
         ) );
-    $wp_customize->add_setting( 'twitch_link', array(
+    $wp_customize->add_setting( 'rss_link', array(
         'type'              => 'theme_mod',
         'sanitize_callback' => 'esc_url_raw',
         'capability'        => 'edit_theme_options',
         ) );
 
-    $wp_customize->add_control( 'twitch_link', array(
-        'label'    => __( "Twitch Link (URL)", 'journalistic' ),
+    $wp_customize->add_control( 'rss_link', array(
+        'label'    => __( "RSS Link (URL)", 'journalistic' ),
         'section'  => 'header_image',
         'type'     => 'text',
         'priority' => 2,
@@ -211,14 +211,14 @@ function journalistic_customize_register( $wp_customize ) {
         'priority' => 2,
         ) );
 
-    $wp_customize->add_setting( 'soundcloud_link', array(
+    $wp_customize->add_setting( 'vkontakte_link', array(
         'type'              => 'theme_mod',
         'sanitize_callback' => 'esc_url_raw',
         'capability'        => 'edit_theme_options',
         ) );
 
-    $wp_customize->add_control( 'soundcloud_link', array(
-        'label'    => __( "SoundCloud Link (URL)", 'journalistic' ),
+    $wp_customize->add_control( 'vkontakte_link', array(
+        'label'    => __( "Vkontakte Link (URL)", 'journalistic' ),
         'section'  => 'header_image',
         'type'     => 'text',
         'priority' => 2,
