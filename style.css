@@ -10,7 +10,7 @@ Version:        0.0.1
 
 @import url("../journalistic/style.css");
 .site-header {
-	background: url(/images/image-header.jpg) no-repeat scroll top;	
+	background: url(/images/headers/header-image.jpg) no-repeat scroll top;	
 }
 * {
 border: #4369e8;
