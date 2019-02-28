@@ -7,6 +7,8 @@ Author URI:     https: //sabini.ch
 Template:       journalistic
 Version:        0.0.1
 */
+
+@import url("../journalistic/style.css");
 * {
 border: #4369e8;
 }
