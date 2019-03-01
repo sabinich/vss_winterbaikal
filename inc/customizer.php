@@ -203,7 +203,7 @@ function journalistic_customize_register( $wp_customize ) {
 
 
 	$wp_customize->add_setting( 'social_media_link_color', array(
-		'default'           => '#fab526',
+		'default'           => '#6d98b8',
 		'sanitize_callback' => 'sanitize_hex_color',
 		'transport'         => 'postMessage',
 		) );
