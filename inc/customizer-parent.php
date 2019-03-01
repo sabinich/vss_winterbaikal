@@ -12,6 +12,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */ 
+if ( ! function_exists ('journalistic_customize_register') ) {
 function journalistic_customize_register( $wp_customize ) {
 
 	$color_scheme = journalistic_get_color_scheme();
@@ -297,6 +298,7 @@ function journalistic_customize_register( $wp_customize ) {
 		'settings'    => 'accent_color',
 		) ) );
 
+}
 }
 add_action( 'customize_register', 'journalistic_customize_register' );
 
