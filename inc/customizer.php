@@ -287,7 +287,7 @@ function journalistic_get_color_schemes() {
 		'default' => array(
 			'label'  => __( 'Default', 'journalistic' ),
 			'colors' => array(
-				'#fab526',			
+				'#d3dee4',			
 				),
 			),
 		'pink'    => array(
@@ -358,7 +358,7 @@ if ( ! function_exists( 'journalistic_get_color_scheme' ) ) :
  */
 function journalistic_get_color_scheme() {
 	$color_scheme_option = get_theme_mod( 'color_scheme', 'default' );
-	$accent_color = get_theme_mod('accent_color','#fab526');
+	$accent_color = get_theme_mod('accent_color','#d3dee4');
 	$color_schemes       = journalistic_get_color_schemes();
 
 	if ( array_key_exists( $color_scheme_option, $color_schemes ) ) {
