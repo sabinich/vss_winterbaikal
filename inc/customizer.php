@@ -31,7 +31,7 @@ function journalistic_customize_register( $wp_customize ) {
 		) );
 
 	$wp_customize->add_setting( 'header_bg_color', array(
-		'default'           => '#1b1b1b',
+		'default'           => '#6d98b8',
 		'sanitize_callback' => 'sanitize_hex_color',
 		'transport'         => 'postMessage',
 		) );
@@ -105,12 +105,6 @@ function journalistic_customize_register( $wp_customize ) {
         'priority' => 2,
         ) );
 
-	$wp_customize->add_setting('journalistic_rating_tabs_sec', array(
-		'sanitize_callback' => 'unneeded',
-		'type' => 'info_control',
-		'capability' => 'edit_theme_options',
-		)
-	);
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'rating_tab', array(
 		'section' => 'journalistic_rating',
 		'settings' => 'journalistic_rating_tabs_sec',
