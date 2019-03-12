@@ -5,7 +5,7 @@ Description:    Дочерняя тема для темы Journalistic
 Author:         vadim s. sabinich
 Author URI:     https://sabini.ch
 Template:       journalistic
-Version:        0.1.0
+Version:        0.1.1
 License:	GNU General Public License v2 or later
 License URI:	http://www.gnu.org/licenses/gpl-2.0.html
 Tags:		light, winter, baikal, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -104,4 +104,19 @@ button, button:hover, html input[type="button"], html input[type="button"]:hover
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #d3dee4;
+}
+a.header-social-media-link {
+    display: inline-block;
+    height: 40px;
+    border: 2px solid #508CBF;
+    width: 40px;
+    font-size: 21px;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+    margin: 10px 5px
+}
+
+.header-social-media-link .fa {
+    color: #508CBF
 }
