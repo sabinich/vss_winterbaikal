@@ -65,7 +65,7 @@
 <!-- vkontakte link -->
 <?php if (get_theme_mod('vkontakte_link') ) : ?>
   <a href="<?php echo  wp_kses_post(get_theme_mod('vkontakte_link')) ?>" target="_blank" class="header-social-media-link">
-   <i class="fa fa-vkontakte" aria-hidden="true"></i>
+   <i class="fa fa-vk" aria-hidden="true"></i>
   </a>
 <?php endif; ?>
         <!-- Facebook link -->
