@@ -11,8 +11,8 @@ function vss_winterbaikal_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
- wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.css',true );  
- wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri().'/font-awesome/css/font-awesome.css',true );
+ wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' );  
+ wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 }
 
 require_once( get_stylesheet_directory(). '/inc/customizer.php' );
